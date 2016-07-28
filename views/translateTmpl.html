@@ -1,0 +1,14 @@
+<div>
+    <select ng-model="sourceLang">
+           <option ng-repeat="l in lang" value="{{l.name}}">{{l.name}}</option>
+    </select>
+      <select ng-model="targetLang">
+             <option ng-repeat="l in lang" value="{{l.name}}">{{l.name}}</option>
+      </select>
+<form ng-submit="getLanguage(input, sourceLang, targetLang)">
+<input ng-model="input" type="text" placeholder="Text here" id="inputBox">
+</form>
+
+<div id="resultBox">{{data}}</div>
+
+</div>

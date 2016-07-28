@@ -1,1 +1,21 @@
-
+body {
+  background: #8bbaab;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+#home {
+  font-size: 4rem;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+#inputBox {
+  width: 20vw;
+  height: 30px;
+  margin-bottom: 10vh;
+}
+#resultBox {
+  text-align: center;
+}
